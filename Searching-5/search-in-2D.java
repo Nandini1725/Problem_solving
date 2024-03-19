@@ -1,3 +1,5 @@
+//brute force approach
+
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
         int m=matrix.length;
@@ -18,3 +20,5 @@ class Solution {
         return false;
     }
 }
+
+// binary search
